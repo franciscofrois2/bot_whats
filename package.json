@@ -1,0 +1,28 @@
+{
+  "name": "whatsapp-bot-mention-all",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp não oficial com funcionalidade de mencionar todos os membros de um grupo de forma invisível",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "mention",
+    "group",
+    "automation"
+  ],
+  "author": "Manus AI",
+  "license": "MIT",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
